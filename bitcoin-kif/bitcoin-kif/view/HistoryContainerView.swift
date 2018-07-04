@@ -50,8 +50,7 @@ class HistoryContainerView: UIView, CodeView {
     
     }
     
-    func setup(history: History?, orientation: Orientation) {
-        
+    func updateOrientation(orientation: Orientation) {
         if let history = history {
             self.history = history
         }
@@ -65,6 +64,7 @@ class HistoryContainerView: UIView, CodeView {
             }
             
             self.currentView = view
+            
         case .portrait:
             let view = HistoryPortraitView(action: self.action)
             
@@ -72,6 +72,17 @@ class HistoryContainerView: UIView, CodeView {
                 view.setup(history: history)
             }
             
+            self.currentView = view
+        }
+    }
+    
+    func setup(result: Result<History>, orientation: Orientation) {
+        switch result {
+        case .success(let history):
+            self.history = history
+            self.updateOrientation(orientation: orientation)
+        case .error(_):
+            let view = ErrorView()
             self.currentView = view
         }
     }

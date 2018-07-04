@@ -21,7 +21,7 @@ class ViewController: UIViewController, HistoryAction {
         self.historyView.action = self
         self.title = "Bitcoin"
         NotificationCenter.default.addObserver(forName: .UIDeviceOrientationDidChange, object: nil, queue: .main) { _ in
-            self.setup(history: nil)
+            self.historyView.updateOrientation(orientation: self.getOrientation())
         }
     }
     
@@ -49,28 +49,18 @@ class ViewController: UIViewController, HistoryAction {
         self.present(alert, animated: true, completion: nil)
     }
     
-    func setup(history: History?) {
-        let orientation: Orientation
-        
-        if UIDevice.current.orientation.isPortrait {
-            orientation = .portrait
-        } else {
-            orientation = .landscape
-        }
-        
-        self.historyView.setup(history: history, orientation: orientation)
-    }
-    
     override func viewDidLoad() {
         self.loader.getHistory { (result) in
             
-            switch result {
-            case .success(let history):
-                self.setup(history: history)
-                
-            case .error(_):
-                print("error")
-            }
+            self.historyView.setup(result: result, orientation: self.getOrientation())
+        }
+    }
+    
+    func getOrientation() -> Orientation {
+        if UIDevice.current.orientation.isPortrait {
+            return .portrait
+        } else {
+            return .landscape
         }
     }
 }

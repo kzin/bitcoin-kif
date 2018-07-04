@@ -22,6 +22,8 @@ class HistoryLandscapeView: UIView, CodeView, IAxisValueFormatter, ChartViewDele
         chartView.xAxis.drawGridLinesEnabled = false
         chartView.xAxis.drawAxisLineEnabled = false
         chartView.noDataText = "Carregando dados..."
+        chartView.accessibilityIdentifier = "chart"
+        chartView.isAccessibilityElement = false
         return chartView
     }()
     

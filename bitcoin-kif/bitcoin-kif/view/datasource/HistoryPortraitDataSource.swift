@@ -30,26 +30,38 @@ class HistoryPortraitSection: Section {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return history.bpi.count
+        return history.bpi.count + 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "HistoryPortraitCell", for: indexPath)
         
-        if let cell = cell as? HistoryPortraitCell {
-            let bpi = self.history.bpi[indexPath.row]
-            cell.setup(bpi: bpi)
+        let cell: UITableViewCell
+        
+        if indexPath.row == 0 {
+            cell = tableView.dequeueReusableCell(withIdentifier: "HeaderCell", for: indexPath)
+            
+        } else {
+        
+            cell = tableView.dequeueReusableCell(withIdentifier: "HistoryPortraitCell", for: indexPath)
+            
+            if let cell = cell as? HistoryPortraitCell {
+                let bpi = self.history.bpi[indexPath.row-1]
+                cell.setup(bpi: bpi)
+            }
         }
         
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.action?.didSelect(bpi: history.bpi[indexPath.row])
+        if indexPath.row > 0 {
+            self.action?.didSelect(bpi: history.bpi[indexPath.row-1])
+        }
     }
     
     func register(_ tableView: UITableView) {
         tableView.register(HistoryPortraitCell.self, forCellReuseIdentifier: "HistoryPortraitCell")
+        tableView.register(HeaderCell.self, forCellReuseIdentifier: "HeaderCell")
     }
     
 }

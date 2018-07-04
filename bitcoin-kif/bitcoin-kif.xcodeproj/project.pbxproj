@@ -8,7 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		750DAFECD5E006961A86EBEC /* Pods_bitcoin_kif_bitcoin_kifTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB704A6E1CE8A4C50269CEAD /* Pods_bitcoin_kif_bitcoin_kifTests.framework */; };
-		8A2AB6C220ED04AB0024D4AC /* HistoryPortraitViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2AB6C120ED04AB0024D4AC /* HistoryPortraitViewSpec.swift */; };
+		8A2AB6C220ED04AB0024D4AC /* ViewControllerPortraitSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2AB6C120ED04AB0024D4AC /* ViewControllerPortraitSpec.swift */; };
+		8A2AB6C720ED074A0024D4AC /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A2AB6C620ED074A0024D4AC /* response.json */; };
+		8A2AB6C920ED076D0024D4AC /* HistoryServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2AB6C820ED076D0024D4AC /* HistoryServiceMock.swift */; };
+		8A2AB6CB20ED086F0024D4AC /* HistoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2AB6CA20ED086F0024D4AC /* HistoryMock.swift */; };
+		8A2AB6CD20ED092A0024D4AC /* HistoryActionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2AB6CC20ED092A0024D4AC /* HistoryActionMock.swift */; };
+		8A2AB6D120ED31910024D4AC /* ViewControllerLandscapeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2AB6D020ED31910024D4AC /* ViewControllerLandscapeSpec.swift */; };
+		8A2AB6D320ED347D0024D4AC /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2AB6D220ED347D0024D4AC /* ErrorView.swift */; };
+		8A2AB6D520ED3AC70024D4AC /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2AB6D420ED3AC70024D4AC /* HeaderCell.swift */; };
 		8AFF8D5620EC0A2E00098BEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF8D5520EC0A2E00098BEA /* AppDelegate.swift */; };
 		8AFF8D5D20EC0A2F00098BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFF8D5C20EC0A2F00098BEA /* Assets.xcassets */; };
 		8AFF8D6020EC0A2F00098BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFF8D5E20EC0A2F00098BEA /* LaunchScreen.storyboard */; };
@@ -48,8 +55,15 @@
 		78C93A46D7DB70C3A052325E /* Pods-bitcoin-kif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcoin-kif.release.xcconfig"; path = "Pods/Target Support Files/Pods-bitcoin-kif/Pods-bitcoin-kif.release.xcconfig"; sourceTree = "<group>"; };
 		8A2AB6B720ED041B0024D4AC /* bitcoin-kifTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bitcoin-kifTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2AB6BB20ED041B0024D4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A2AB6C120ED04AB0024D4AC /* HistoryPortraitViewSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPortraitViewSpec.swift; sourceTree = "<group>"; };
+		8A2AB6C120ED04AB0024D4AC /* ViewControllerPortraitSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPortraitSpec.swift; sourceTree = "<group>"; };
 		8A2AB6C520ED04EF0024D4AC /* bitcoin-kifTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bitcoin-kifTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		8A2AB6C620ED074A0024D4AC /* response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.json; sourceTree = "<group>"; };
+		8A2AB6C820ED076D0024D4AC /* HistoryServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryServiceMock.swift; sourceTree = "<group>"; };
+		8A2AB6CA20ED086F0024D4AC /* HistoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryMock.swift; sourceTree = "<group>"; };
+		8A2AB6CC20ED092A0024D4AC /* HistoryActionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryActionMock.swift; sourceTree = "<group>"; };
+		8A2AB6D020ED31910024D4AC /* ViewControllerLandscapeSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLandscapeSpec.swift; sourceTree = "<group>"; };
+		8A2AB6D220ED347D0024D4AC /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		8A2AB6D420ED3AC70024D4AC /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
 		8AFF8D5220EC0A2E00098BEA /* bitcoin-kif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bitcoin-kif.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFF8D5520EC0A2E00098BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AFF8D5C20EC0A2F00098BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,7 +134,8 @@
 		8A2AB6C320ED04AE0024D4AC /* spec */ = {
 			isa = PBXGroup;
 			children = (
-				8A2AB6C120ED04AB0024D4AC /* HistoryPortraitViewSpec.swift */,
+				8A2AB6C120ED04AB0024D4AC /* ViewControllerPortraitSpec.swift */,
+				8A2AB6D020ED31910024D4AC /* ViewControllerLandscapeSpec.swift */,
 			);
 			path = spec;
 			sourceTree = "<group>";
@@ -128,6 +143,10 @@
 		8A2AB6C420ED04B40024D4AC /* mock */ = {
 			isa = PBXGroup;
 			children = (
+				8A2AB6C620ED074A0024D4AC /* response.json */,
+				8A2AB6C820ED076D0024D4AC /* HistoryServiceMock.swift */,
+				8A2AB6CA20ED086F0024D4AC /* HistoryMock.swift */,
+				8A2AB6CC20ED092A0024D4AC /* HistoryActionMock.swift */,
 			);
 			path = mock;
 			sourceTree = "<group>";
@@ -193,6 +212,7 @@
 				8AFF8D7220EC0BD100098BEA /* HistoryContainerView.swift */,
 				8AFF8D7320EC0BD100098BEA /* HistoryLandscapeView.swift */,
 				8AFF8D7420EC0BD100098BEA /* HistoryPortraitView.swift */,
+				8A2AB6D220ED347D0024D4AC /* ErrorView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -223,6 +243,7 @@
 			children = (
 				8AFF8D7120EC0BD100098BEA /* SeparatorCell.swift */,
 				8AFF8D7520EC0BD100098BEA /* HistoryPortraitCell.swift */,
+				8A2AB6D420ED3AC70024D4AC /* HeaderCell.swift */,
 			);
 			path = cell;
 			sourceTree = "<group>";
@@ -323,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A2AB6C720ED074A0024D4AC /* response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +455,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A2AB6C220ED04AB0024D4AC /* HistoryPortraitViewSpec.swift in Sources */,
+				8A2AB6CB20ED086F0024D4AC /* HistoryMock.swift in Sources */,
+				8A2AB6C920ED076D0024D4AC /* HistoryServiceMock.swift in Sources */,
+				8A2AB6CD20ED092A0024D4AC /* HistoryActionMock.swift in Sources */,
+				8A2AB6D120ED31910024D4AC /* ViewControllerLandscapeSpec.swift in Sources */,
+				8A2AB6C220ED04AB0024D4AC /* ViewControllerPortraitSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +474,9 @@
 				8AFF8D7D20EC0BD200098BEA /* BPI.swift in Sources */,
 				8AFF8D7E20EC0BD200098BEA /* History.swift in Sources */,
 				8AFF8D8420EC0BD200098BEA /* HistoryPortraitView.swift in Sources */,
+				8A2AB6D320ED347D0024D4AC /* ErrorView.swift in Sources */,
 				8AFF8D8820EC0BD200098BEA /* Request.swift in Sources */,
+				8A2AB6D520ED3AC70024D4AC /* HeaderCell.swift in Sources */,
 				8AFF8D9020ECF6F600098BEA /* HistoryService.swift in Sources */,
 				8AFF8D8520EC0BD200098BEA /* HistoryPortraitCell.swift in Sources */,
 				8AFF8D7F20EC0BD200098BEA /* DividerSection.swift in Sources */,
