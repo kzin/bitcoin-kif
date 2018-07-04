@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750DAFECD5E006961A86EBEC /* Pods_bitcoin_kif_bitcoin_kifTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB704A6E1CE8A4C50269CEAD /* Pods_bitcoin_kif_bitcoin_kifTests.framework */; };
+		8A2AB6C220ED04AB0024D4AC /* HistoryPortraitViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2AB6C120ED04AB0024D4AC /* HistoryPortraitViewSpec.swift */; };
 		8AFF8D5620EC0A2E00098BEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF8D5520EC0A2E00098BEA /* AppDelegate.swift */; };
 		8AFF8D5D20EC0A2F00098BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFF8D5C20EC0A2F00098BEA /* Assets.xcassets */; };
 		8AFF8D6020EC0A2F00098BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFF8D5E20EC0A2F00098BEA /* LaunchScreen.storyboard */; };
@@ -29,9 +31,25 @@
 		D9584EC37A9D0948B93CA5C1 /* Pods_bitcoin_kif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929087C0D86542CACFBC9457 /* Pods_bitcoin_kif.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8A2AB6BC20ED041B0024D4AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AFF8D4A20EC0A2E00098BEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AFF8D5120EC0A2E00098BEA;
+			remoteInfo = "bitcoin-kif";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		0E40E4EC448885A3C0570B33 /* Pods-bitcoin-kif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcoin-kif.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bitcoin-kif/Pods-bitcoin-kif.debug.xcconfig"; sourceTree = "<group>"; };
+		5DA42079456C75A2280C6188 /* Pods-bitcoin-kif-bitcoin-kifTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcoin-kif-bitcoin-kifTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bitcoin-kif-bitcoin-kifTests/Pods-bitcoin-kif-bitcoin-kifTests.release.xcconfig"; sourceTree = "<group>"; };
+		76924DCFA648463C12AB4159 /* Pods-bitcoin-kif-bitcoin-kifTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcoin-kif-bitcoin-kifTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bitcoin-kif-bitcoin-kifTests/Pods-bitcoin-kif-bitcoin-kifTests.debug.xcconfig"; sourceTree = "<group>"; };
 		78C93A46D7DB70C3A052325E /* Pods-bitcoin-kif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcoin-kif.release.xcconfig"; path = "Pods/Target Support Files/Pods-bitcoin-kif/Pods-bitcoin-kif.release.xcconfig"; sourceTree = "<group>"; };
+		8A2AB6B720ED041B0024D4AC /* bitcoin-kifTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bitcoin-kifTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2AB6BB20ED041B0024D4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A2AB6C120ED04AB0024D4AC /* HistoryPortraitViewSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPortraitViewSpec.swift; sourceTree = "<group>"; };
+		8A2AB6C520ED04EF0024D4AC /* bitcoin-kifTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bitcoin-kifTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		8AFF8D5220EC0A2E00098BEA /* bitcoin-kif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bitcoin-kif.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFF8D5520EC0A2E00098BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AFF8D5C20EC0A2F00098BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,9 +72,18 @@
 		8AFF8D7A20EC0BD200098BEA /* CodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
 		8AFF8D8F20ECF6F600098BEA /* HistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryService.swift; sourceTree = "<group>"; };
 		929087C0D86542CACFBC9457 /* Pods_bitcoin_kif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bitcoin_kif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB704A6E1CE8A4C50269CEAD /* Pods_bitcoin_kif_bitcoin_kifTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bitcoin_kif_bitcoin_kifTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8A2AB6B420ED041B0024D4AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750DAFECD5E006961A86EBEC /* Pods_bitcoin_kif_bitcoin_kifTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8AFF8D4F20EC0A2E00098BEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,14 +100,43 @@
 			children = (
 				0E40E4EC448885A3C0570B33 /* Pods-bitcoin-kif.debug.xcconfig */,
 				78C93A46D7DB70C3A052325E /* Pods-bitcoin-kif.release.xcconfig */,
+				76924DCFA648463C12AB4159 /* Pods-bitcoin-kif-bitcoin-kifTests.debug.xcconfig */,
+				5DA42079456C75A2280C6188 /* Pods-bitcoin-kif-bitcoin-kifTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A2AB6B820ED041B0024D4AC /* bitcoin-kifTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A2AB6C420ED04B40024D4AC /* mock */,
+				8A2AB6C320ED04AE0024D4AC /* spec */,
+				8A2AB6BB20ED041B0024D4AC /* Info.plist */,
+				8A2AB6C520ED04EF0024D4AC /* bitcoin-kifTests-Bridging-Header.h */,
+			);
+			path = "bitcoin-kifTests";
+			sourceTree = "<group>";
+		};
+		8A2AB6C320ED04AE0024D4AC /* spec */ = {
+			isa = PBXGroup;
+			children = (
+				8A2AB6C120ED04AB0024D4AC /* HistoryPortraitViewSpec.swift */,
+			);
+			path = spec;
+			sourceTree = "<group>";
+		};
+		8A2AB6C420ED04B40024D4AC /* mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mock;
 			sourceTree = "<group>";
 		};
 		8AFF8D4920EC0A2E00098BEA = {
 			isa = PBXGroup;
 			children = (
 				8AFF8D5420EC0A2E00098BEA /* bitcoin-kif */,
+				8A2AB6B820ED041B0024D4AC /* bitcoin-kifTests */,
 				8AFF8D5320EC0A2E00098BEA /* Products */,
 				3AC0D328E18A57B147A46F33 /* Pods */,
 				D2153DC4A7E5CEA45A3B8713 /* Frameworks */,
@@ -91,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				8AFF8D5220EC0A2E00098BEA /* bitcoin-kif.app */,
+				8A2AB6B720ED041B0024D4AC /* bitcoin-kifTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				929087C0D86542CACFBC9457 /* Pods_bitcoin_kif.framework */,
+				FB704A6E1CE8A4C50269CEAD /* Pods_bitcoin_kif_bitcoin_kifTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -181,6 +239,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8A2AB6B620ED041B0024D4AC /* bitcoin-kifTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A2AB6C020ED041B0024D4AC /* Build configuration list for PBXNativeTarget "bitcoin-kifTests" */;
+			buildPhases = (
+				79C7E8C3673F956CD43C3F94 /* [CP] Check Pods Manifest.lock */,
+				8A2AB6B320ED041B0024D4AC /* Sources */,
+				8A2AB6B420ED041B0024D4AC /* Frameworks */,
+				8A2AB6B520ED041B0024D4AC /* Resources */,
+				AACE4A8AA52F5ACDB477EB9D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A2AB6BD20ED041B0024D4AC /* PBXTargetDependency */,
+			);
+			name = "bitcoin-kifTests";
+			productName = "bitcoin-kifTests";
+			productReference = 8A2AB6B720ED041B0024D4AC /* bitcoin-kifTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8AFF8D5120EC0A2E00098BEA /* bitcoin-kif */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AFF8D6420EC0A2F00098BEA /* Build configuration list for PBXNativeTarget "bitcoin-kif" */;
@@ -210,6 +288,11 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = r.vieira.cavalcante;
 				TargetAttributes = {
+					8A2AB6B620ED041B0024D4AC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AFF8D5120EC0A2E00098BEA;
+					};
 					8AFF8D5120EC0A2E00098BEA = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -230,11 +313,19 @@
 			projectRoot = "";
 			targets = (
 				8AFF8D5120EC0A2E00098BEA /* bitcoin-kif */,
+				8A2AB6B620ED041B0024D4AC /* bitcoin-kifTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8A2AB6B520ED041B0024D4AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8AFF8D5020EC0A2E00098BEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,9 +376,67 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		79C7E8C3673F956CD43C3F94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bitcoin-kif-bitcoin-kifTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AACE4A8AA52F5ACDB477EB9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-bitcoin-kif-bitcoin-kifTests/Pods-bitcoin-kif-bitcoin-kifTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${BUILT_PRODUCTS_DIR}/KIF/KIF.framework",
+				"${BUILT_PRODUCTS_DIR}/KIF-Quick/KIF_Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KIF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KIF_Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble_Snapshots.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bitcoin-kif-bitcoin-kifTests/Pods-bitcoin-kif-bitcoin-kifTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8A2AB6B320ED041B0024D4AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2AB6C220ED04AB0024D4AC /* HistoryPortraitViewSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8AFF8D4E20EC0A2E00098BEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,6 +463,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8A2AB6BD20ED041B0024D4AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AFF8D5120EC0A2E00098BEA /* bitcoin-kif */;
+			targetProxy = 8A2AB6BC20ED041B0024D4AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		8AFF8D5E20EC0A2F00098BEA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -326,6 +483,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8A2AB6BE20ED041B0024D4AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76924DCFA648463C12AB4159 /* Pods-bitcoin-kif-bitcoin-kifTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bitcoin-kifTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "concrete.bitcoin-kifTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bitcoin-kif.app/bitcoin-kif";
+			};
+			name = Debug;
+		};
+		8A2AB6BF20ED041B0024D4AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA42079456C75A2280C6188 /* Pods-bitcoin-kif-bitcoin-kifTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bitcoin-kifTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "concrete.bitcoin-kifTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bitcoin-kif.app/bitcoin-kif";
+			};
+			name = Release;
+		};
 		8AFF8D6220EC0A2F00098BEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -466,6 +655,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8A2AB6C020ED041B0024D4AC /* Build configuration list for PBXNativeTarget "bitcoin-kifTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2AB6BE20ED041B0024D4AC /* Debug */,
+				8A2AB6BF20ED041B0024D4AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8AFF8D4D20EC0A2E00098BEA /* Build configuration list for PBXProject "bitcoin-kif" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

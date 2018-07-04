@@ -8,4 +8,12 @@ target 'bitcoin-kif' do
   pod 'Charts', '3.1'
   # Pods for bitcoin-kif
 
+    target 'bitcoin-kifTests' do
+        pod 'Quick', '~> 1.3.0'
+        pod 'Nimble', '~> 7.1.2'
+        pod 'Nimble-Snapshots'
+        pod 'KIF'
+        pod 'KIF-Quick'
+    end
+
 end
