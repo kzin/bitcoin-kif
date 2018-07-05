@@ -1,6 +1,0 @@
-framework module Pods_bitcoin_kif_bitcoin_kifTests {
-  umbrella header "Pods-bitcoin-kif-bitcoin-kifTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
