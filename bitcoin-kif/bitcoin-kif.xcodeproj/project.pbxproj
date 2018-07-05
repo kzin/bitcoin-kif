@@ -13,7 +13,6 @@
 		8A2AB6C920ED076D0024D4AC /* HistoryServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2AB6C820ED076D0024D4AC /* HistoryServiceMock.swift */; };
 		8A2AB6CB20ED086F0024D4AC /* HistoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2AB6CA20ED086F0024D4AC /* HistoryMock.swift */; };
 		8A2AB6CD20ED092A0024D4AC /* HistoryActionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2AB6CC20ED092A0024D4AC /* HistoryActionMock.swift */; };
-		8A2AB6D120ED31910024D4AC /* ViewControllerLandscapeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2AB6D020ED31910024D4AC /* ViewControllerLandscapeSpec.swift */; };
 		8A2AB6D320ED347D0024D4AC /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2AB6D220ED347D0024D4AC /* ErrorView.swift */; };
 		8A2AB6D520ED3AC70024D4AC /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2AB6D420ED3AC70024D4AC /* HeaderCell.swift */; };
 		8AFF8D5620EC0A2E00098BEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF8D5520EC0A2E00098BEA /* AppDelegate.swift */; };
@@ -61,7 +60,6 @@
 		8A2AB6C820ED076D0024D4AC /* HistoryServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryServiceMock.swift; sourceTree = "<group>"; };
 		8A2AB6CA20ED086F0024D4AC /* HistoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryMock.swift; sourceTree = "<group>"; };
 		8A2AB6CC20ED092A0024D4AC /* HistoryActionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryActionMock.swift; sourceTree = "<group>"; };
-		8A2AB6D020ED31910024D4AC /* ViewControllerLandscapeSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLandscapeSpec.swift; sourceTree = "<group>"; };
 		8A2AB6D220ED347D0024D4AC /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		8A2AB6D420ED3AC70024D4AC /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
 		8AFF8D5220EC0A2E00098BEA /* bitcoin-kif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bitcoin-kif.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				8A2AB6C120ED04AB0024D4AC /* ViewControllerPortraitSpec.swift */,
-				8A2AB6D020ED31910024D4AC /* ViewControllerLandscapeSpec.swift */,
 			);
 			path = spec;
 			sourceTree = "<group>";
@@ -458,7 +455,6 @@
 				8A2AB6CB20ED086F0024D4AC /* HistoryMock.swift in Sources */,
 				8A2AB6C920ED076D0024D4AC /* HistoryServiceMock.swift in Sources */,
 				8A2AB6CD20ED092A0024D4AC /* HistoryActionMock.swift in Sources */,
-				8A2AB6D120ED31910024D4AC /* ViewControllerLandscapeSpec.swift in Sources */,
 				8A2AB6C220ED04AB0024D4AC /* ViewControllerPortraitSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

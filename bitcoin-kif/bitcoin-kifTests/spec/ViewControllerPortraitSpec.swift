@@ -101,6 +101,8 @@ class ViewControllerPortraitSpec: KIFSpec {
                     
                     viewTester().usingIdentifier("HistoryPortraitTableView").waitForCellInTableView(at: lastIndex, at: UITableViewScrollPosition.top)
                     
+                    viewTester().usingIdentifier("HistoryPortraitTableView")
+                    
                     expect(window).toEventually(recordSnapshot(named: "bottom view"))
                 }
                 
